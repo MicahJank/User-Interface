@@ -66,7 +66,7 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 
 body {
-	width: 876px;
+	width: 900px;
 	margin: auto;
 	text-align: center;
 }
@@ -114,21 +114,25 @@ header img {
 
 
 /* Upper Content and Lower Content Sections */
-.upper-content {
+.content-section {
 	text-align: left;
 	margin: 30px 0;
+	display: block;
 }
 
-.features {
-	display: inline-block;
-	width: 450px;
-}
-
-.about {
-	display: inline-block;
-	width: 422px;
-}
-
-.about p {
+.content-section p {
 	width: 100%;
+}
+
+.upper-content {
+	display: inline-block;
+	width: 49%;
+	margin: 3px;
+	padding: 10px;
+}
+
+.lower-content {
+	display: inline-block;
+	width: 33%;
+	padding: 10px;
 }
