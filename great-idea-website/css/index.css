@@ -88,3 +88,26 @@ header h1 {
 	display: inline-block;
 	vertical-align: 50%;
 }
+
+/* Header Section */
+header img {
+	margin: 50px 0;
+}
+
+.main-header {
+	display: inline-block;
+	margin:  0px 50px 50px;
+	vertical-align: 100px;
+	
+}
+
+/* TODO: change style of button */
+.main-header button {
+	display: block;
+	margin: auto;
+}
+
+
+/* Upper Content and Lower Content Sections */
+
+
