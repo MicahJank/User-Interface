@@ -66,15 +66,16 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 
 body {
-	width: 800px;
+	width: 1000px;
 	margin: auto;
+	text-align: center;
 }
 nav {
 	padding: 10px 0;
 }
 
 nav a {
-	margin: 0 40px 0 0;
+	margin: 0 73px 0 0;
 	vertical-align: 50%;
 }
 
@@ -109,5 +110,12 @@ header img {
 
 
 /* Upper Content and Lower Content Sections */
+.features {
+	display: inline-block;
+	width: 400px;
+}
 
-
+.about {
+	display: inline-block;
+	width: 400px;
+}
