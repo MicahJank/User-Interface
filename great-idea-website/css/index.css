@@ -71,6 +71,10 @@ body {
 	text-align: center;
 }
 
+.middle-img {
+	width: 100%;
+}
+
 p {
 	margin: 20px 20px 0 0;
 }
@@ -81,11 +85,14 @@ hr {
 
 nav {
 	padding: 10px 0;
+	text-align: left;
 }
 
 nav a {
 	margin: 0 52px 0 0;
 	vertical-align: 50%;
+	text-decoration: none;
+	color: lightgrey;
 }
 
 nav img {
@@ -106,15 +113,21 @@ header img {
 
 .main-header {
 	display: inline-block;
-	margin:  0px 50px 50px;
+	margin:  0px 100px 50px;
 	vertical-align: 100px;
 	
 }
 
-/* TODO: change style of button */
 .main-header button {
 	display: block;
 	margin: auto;
+	background-color: rgb(255, 255, 255);
+	border: 1px solid rgb(97, 97, 97);
+	color: rgb(27, 27, 27);
+	padding: 7px 40px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 16px;
 }
 
 
@@ -149,6 +162,7 @@ header img {
 .product, .vision {
 	margin-left: 27px;
 }
+
 
 /* Address Section */
 address {
