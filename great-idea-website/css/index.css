@@ -70,10 +70,21 @@ body {
 	margin: auto;
 }
 nav {
-	padding: 10px;
+	padding: 10px 0;
 }
 
 nav a {
-	margin: 0 20px;
+	margin: 0 40px 0 0;
+	vertical-align: 50%;
+}
+
+nav img {
+	margin-left: 54px;
+}
+
+header h1 {
+	font-size: 70px;
+	text-align: center;
+	display: inline-block;
 	vertical-align: 50%;
 }
