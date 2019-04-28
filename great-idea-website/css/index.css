@@ -71,10 +71,6 @@ body {
 	text-align: center;
 }
 
-.middle-img {
-	width: 100%;
-}
-
 p {
 	margin: 20px 20px 0 0;
 }
@@ -83,16 +79,22 @@ hr {
 	border: 1px solid black;
 }
 
+h3 {
+	font-family: 'Open-Sans', sans-serif;
+	font-weight: 600;
+}
+
+/* Nav Section */
+
 nav {
 	position: fixed;
+	top: 0;
 	padding: 10px 0;
 	text-align: left;
 	background-color: rgb(38, 38, 68);
 	z-index: 1;
 	width: 900px;
-
 }
-
 
 nav a {
 	margin: 0 52px 0 0;
@@ -105,16 +107,21 @@ nav img {
 	margin-left: 54px;
 }
 
+
+/* Header Section */
+header {
+	margin-top: 30px;
+}
+header img {
+	margin: 50px 0;
+}
+
 header h1 {
-	font-size: 70px;
+	font-size: 60px;
+	font-family: 'Open-Sans', sans-serif;
 	text-align: center;
 	display: inline-block;
 	vertical-align: 50%;
-}
-
-/* Header Section */
-header img {
-	margin: 50px 0;
 }
 
 .main-header {
@@ -159,6 +166,11 @@ header img {
 	margin-left: 13px;
 }
 
+
+.middle-img {
+	width: 100%;
+}
+
 .lower-content {
 	display: inline-block;
 	width: 31%;
@@ -175,6 +187,7 @@ address {
 	margin: 30px 0;
 	text-align: left;
 }
+
 
 /* Footer Section */
 footer {
