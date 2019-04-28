@@ -84,9 +84,15 @@ hr {
 }
 
 nav {
+	position: fixed;
 	padding: 10px 0;
 	text-align: left;
+	background-color: rgb(38, 38, 68);
+	z-index: 1;
+	width: 900px;
+
 }
+
 
 nav a {
 	margin: 0 52px 0 0;
