@@ -63,8 +63,7 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Your code starts here! */
-
+/* Custom CSS */
 body {
 	width: 900px;
 	margin: auto;
@@ -112,114 +111,20 @@ nav img {
 	margin-left: 54px;
 }
 
-
-/* Header Section */
-header {
-	margin-top: 30px;
-	background: url("/great-idea-website/img/header-img.png") no-repeat center center;
-	background-size: 50%;
-	z-index: -1;
-	padding: 150px;
-}
-header img {
-	margin: 50px 0;
+.about-us h1 {
+    margin-top: 100px;
+    font-size: 170%;
 }
 
-header h1 {
-	font-size: 60px;
-	font-family: 'Open-Sans', sans-serif;
-	text-align: center;
-	display: inline-block;
-	color: rgb(2, 30, 56);
-	background-color: rgba(255, 255, 255, 0.8);
-	border-radius: 10px;
-	padding: 20px;
+.section {
+    display: inline-block;
+    border: 1px solid black;
+    line-height: 2;
+    padding: 30px;
+    margin: 20px;
+    width: 45%;
 }
 
-.main-header {
-	display: inline-block;
-	vertical-align: 50%;
-	
-}
-
-
-
-.main-header button {
-	display: block;
-	margin: auto;
-	background-color: rgb(255, 255, 255);
-	border: 1px solid rgb(97, 97, 97);
-	color: rgb(27, 27, 27);
-	padding: 7px 40px;
-	text-align: center;
-	text-decoration: none;
-	font-size: 16px;
-}
-
-@keyframes button-animation{
-	0% {width: 50%;}
-	100% {width: 100%;}
-}
-
-.main-header button:hover {
-	animation-name: button-animation;
-	animation-duration: 1s;
-	animation-fill-mode: forwards;
-}
-
-/* Upper Content and Lower Content Sections */
-.all-content {
-	background: url("/great-idea-website/img/mid-page-accent.jpg") no-repeat center;
-	background-size: cover;
-}
-
-.content-section {
-	background-color: rgba(25, 26, 27, 0.5);
-	color: white;
-	padding: 20px 0;
-	text-align: left;
-	margin: 0 0;
-	display: block;
-}
-
-.content-section p {
-	width: 100%;
-}
-
-.upper-content {
-	display: inline-block;
-	width: 49%;
-	padding: 10px 0;
-}
-
-.about {
-	margin-left: 13px;
-}
-
-
-.middle-img {
-	width: 100%;
-}
-
-.lower-content {
-	display: inline-block;
-	width: 31%;
-	padding: 10px 0;
-}
-
-.product, .vision {
-	margin-left: 27px;
-}
-
-
-/* Address Section */
-address {
-	margin: 30px 0;
-	text-align: left;
-}
-
-
-/* Footer Section */
-footer {
-	padding-bottom: 100px;
+.accent-img {
+    width: 100%;
 }
